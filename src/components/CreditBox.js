@@ -1,13 +1,9 @@
 import React, {Component} from 'react';
 
 const CreditBox = props => (
-  <div className="creditbox">
+  <div className="credit-box">
     <img src={props.profileImg} alt={props.name} className="profile-img" />
-    <div>
-      <p>
-        {props.name}
-      </p>
-    </div>
+    <p className="profile-name"> {props.name}</p>
   </div>
 );
 

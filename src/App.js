@@ -6,7 +6,8 @@ import Card from './components/Card'
 
 const headline = "Learning React? Start Small.";
 const name = "John Doe";
-const message = "Thunderbird is a screw-top classic. Swine and wine pair well. The Romans named Sangiovese after the blood of Jupiter; that must have been some hangover.";
+const message = "Pastry I love chocolate wafer danish. Biscuit apple pie fruitcake bear claw. Wafer jelly beans brownie tart I love.";
+const footer="glorious.web.design"
 
 class App extends Component {
 
@@ -19,6 +20,7 @@ class App extends Component {
             headline={headline}
             name={name}
             message={message}
+            footer={footer}
           />
       </div>
     );
