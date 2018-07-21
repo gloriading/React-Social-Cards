@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const Logo = props => (
   <img src={props.logo} alt="logo" className="logo" />

@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 const MessageBox = props => (
   <div className="message-box">
