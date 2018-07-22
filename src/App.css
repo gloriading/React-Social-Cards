@@ -23,7 +23,7 @@ a {
 .card-header {
   width: 100%;
   height: 300px;
-  background-color: gold;
+  background-color: rgba(116, 185, 255,1.0);
   padding: 5px;
   position: relative;
 }
@@ -31,7 +31,7 @@ a {
   text-align: center;
   color: navy;
   letter-spacing: 2px;
-  line-height: 4;
+  line-height: 1.5;
   font-weight: 200;
 }
 .credit-box {
@@ -45,7 +45,7 @@ a {
 
 p.profile-name {
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -60,14 +60,16 @@ p.profile-name {
 }
 
 .logo {
+  margin: 10px 0 0 10px;
   width: 50px;
   height: auto;
 }
 
 .card-body {
   width: 100%;
-  background-color: #fff7cc;
+  background-color: whitesmoke;
   padding: 20px;
+  color: black;
 }
 .card-body .headline {
   text-align: left;
